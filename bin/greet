@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 
-#gets 'Hi! I'm HAL, what's your name?
-name = #gets.strip
+puts 'Hi! I'm HAL, what's your name?
+name = gets.strip
 puts greeting(name)
