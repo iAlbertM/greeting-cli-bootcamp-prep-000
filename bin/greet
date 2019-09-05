@@ -5,4 +5,4 @@ puts "Hello Hi! I'm Hal, what's your name?. It's nice to meet you."
 
 name = #gets.strip
 
-puts greeting(name)
+puts greeting("#{name}")
